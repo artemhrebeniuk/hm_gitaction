@@ -1,4 +1,4 @@
-name: My Task
+name: Show Name and Surname
 on:
   push:
     branches:
