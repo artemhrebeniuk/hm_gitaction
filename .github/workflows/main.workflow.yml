@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Run a script to output first and last names
-        run: bash script.sh
+        run: bash hm_gitaction/.github/workflows/script.sh
