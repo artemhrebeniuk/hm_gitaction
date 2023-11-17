@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: Run script
       run: |
-        echo "Your name is ${GITHUB_USER}"
+        echo "Your name is ${Artem Hrebeniuk}"
