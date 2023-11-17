@@ -7,14 +7,14 @@ on:
 
 jobs:
   show-name-and-surname:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Bash environment
-        uses: actions/setup-bash@v3
+        uses: https://github.com/actions/setup-bash@v3
 
       - name: Run script to show name and surname
         run: |
