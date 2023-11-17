@@ -1,0 +1,22 @@
+name: Show Name and Surname
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  show-name-and-surname:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Bash environment
+        uses: actions/setup-bash@v3
+
+      - name: Run script to show name and surname
+        run: |
+          echo "First Name: Artem"
+          echo "Last Name: Hrebeniuk"
