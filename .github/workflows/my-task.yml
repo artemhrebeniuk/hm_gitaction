@@ -1,0 +1,13 @@
+name: My Task
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run script
+      run: |
+        echo "Your name is ${GITHUB_USER}"
