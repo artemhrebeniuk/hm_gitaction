@@ -1,4 +1,4 @@
-name: Display your name 
+name: Display your name
 on:
   push:
     branches:
@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: |
-        echo "Your name is ${GITHUB_USER_NAME}"
+          echo "Your name is artemhrebeniuk"
